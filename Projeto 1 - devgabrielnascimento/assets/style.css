@@ -112,6 +112,8 @@ footer img {
       flex-direction: column;
    }
 
-
+   footer p {
+      font-size: 12px;
+   }
 }
 
