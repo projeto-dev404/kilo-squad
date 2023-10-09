@@ -24,7 +24,6 @@
 header img {
    width: 229px;
    height: 45.5px;
-   margin-right: 24vh;
 }
 
 
@@ -106,7 +105,7 @@ footer img {
    height: 45.5px;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 900px) {
    footer {
       gap: 20px;
       flex-direction: column;
@@ -114,6 +113,11 @@ footer img {
 
    footer p {
       font-size: 12px;
+   }
+}
+@media (min-width: 900px) {
+   header img {
+      margin-right: 24vh;
    }
 }
 
