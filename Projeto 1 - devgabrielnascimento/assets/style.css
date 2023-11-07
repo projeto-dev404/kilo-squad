@@ -24,6 +24,7 @@
 header img {
    width: 229px;
    height: 45.5px;
+   padding: 2px;
 }
 
 
@@ -32,6 +33,7 @@ header img {
    /* background-color: blue; */
    grid-template-columns: 1fr 1fr;
    place-items: center;
+   
    
 
  }
@@ -43,6 +45,7 @@ header img {
    justify-content: center;
     font-size: 28px;
     color: #784748;
+    padding-left: 18px;
  }
 
 
